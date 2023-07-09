@@ -20,3 +20,16 @@ function FizzBuzz(num) {
     }
 }
 FizzBuzz(30)
+
+
+function findVowels(str) {
+    let count = 0
+    const vowels = ['a', 'e', 'i', 'o', 'u']
+    for (let meaning of str.toLowerCase()) {
+        if (vowels.includes(meaning)) {
+            count += 1
+        }
+    }
+        return count
+}
+console.log(findVowels('Hello'))
